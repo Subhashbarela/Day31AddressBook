@@ -14,4 +14,7 @@ select * from AddressBook order by first_name,last_name
 select * from AddressBook order by state
 select * from AddressBook order by address
 
+select * from AddressBook order by id desc -- arrange data in descending order
+
+
 
