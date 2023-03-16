@@ -9,6 +9,9 @@ values('ram','barela','32th street','chopda','maharashtra','425100','02586-22756
 
 select * from AddressBook
 
-select city, count(*) as total_city from AddressBook group by city
+select * from AddressBook order by first_name,last_name
 
-select state, count(state) as total_city from AddressBook group by state
+select * from AddressBook order by state
+select * from AddressBook order by address
+
+
