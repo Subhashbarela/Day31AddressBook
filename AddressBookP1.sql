@@ -9,9 +9,10 @@ values('ram','barela','32th street','chopda','maharashtra','425100','02586-22756
 
 select * from AddressBook
 
-select * from AddressBook order by first_name,last_name
 
-select * from AddressBook order by state
-select * from AddressBook order by address
+
+ALTER TABLE AddressBook 
+  ADD name VARCHAR(100), 
+      contact_type VARCHAR(50)
 
 
